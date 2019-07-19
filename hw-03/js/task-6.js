@@ -20,12 +20,8 @@ const products = [
 ];
 console.log(calculateTotalPrice(products, "Радар")); // 5200
 console.log(calculateTotalPrice(products, "Дроид")); // 2800
-console.log(calculateTotalPrice(products, "Сканер")); // 8100
-console.log(calculateTotalPrice(products, "Захват")); // 2400
 
 function calculateTotalPrice(arr, productName) {
-  // console.table(arr);
-  // console.log(productName);
   for (let obj of arr) {
     if (obj.name.toLowerCase() === productName.toLowerCase()) {
       return obj.price * obj.quantity;
