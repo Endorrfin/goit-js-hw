@@ -53,22 +53,6 @@ console.log(
 
 
 
-// const employeesSalary = {
-//   mango: 100,
-//   poly: 150,
-//   alfred: 80,
-//   Bary: 80,
-//   Ivod: 70,
-//   Royi: 120,
-// }
-
-// let total = 0;
-// const countTotalSalary = Object.values(employeesSalary);
-// console.table(countTotalSalary);
-// for (const value of countTotalSalary) {
-//   total +=value;
-// }
-// console.log('total :', total);
 
 
 

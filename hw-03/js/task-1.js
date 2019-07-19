@@ -37,7 +37,10 @@ user.premium = false;
 console.table(user);
 
 // 4. выводит содержимое объекта user в формате ключ:значение используя Object.keys() и for...of
-const entries = Object.entries(user);
-console.table(entries);
+  // const entries = Object.entries(user);
+  // console.table(entries);
 
+for (const key in user) {
+  console.table(`key: ${key}, value ${user[key]}`);
+}
 
