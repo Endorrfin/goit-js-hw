@@ -22,12 +22,11 @@ const countTotalSalary = function(sum) {
   let general = 0;
 
   const countTotalSalary = Object.values(sum);
-  console.table(countTotalSalary);
   for(const values of countTotalSalary) {
     general +=values;
   }
 
-  console.table('general :', general);
+  return general
 }
 
 
@@ -38,9 +37,6 @@ console.log(
     mango: 100,
     poly: 150,
     alfred: 80,
-    Bary: 80,
-    Ivod: 70,
-    Royi: 120,
   }),
 ); // 330
 console.log(
@@ -51,28 +47,6 @@ console.log(
   }),
 ); // 400
 
-
-
-
-
-
-// const findBestEmployee = function(statistic){
-//   let max = 0;
-//   let name;
-
-//   const keys = Object.keys(statistic);
-//   for (const key of keys) {
-//     if (max < statistic[key]){
-//       max = statistic[key];
-//       name = key;
-//     }
-//   }
-
-//   return {
-//     name,
-//     tasksCompleted: max
-//   };
-// };
 
 
 

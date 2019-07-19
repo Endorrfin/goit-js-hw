@@ -40,14 +40,14 @@ const findBestEmployee = function(statistic){
   }
 
   return {
-    name,
-    tasksCompleted: max
+    'The Best Employee': name
+    // tasksCompleted: max
   };
 };
 
 
 
-console.table(
+console.log(
   findBestEmployee({
     ann: 29,
     david: 35,
@@ -55,14 +55,14 @@ console.table(
     lorence: 99,
   }),
 ); // lorence
-console.table(
+console.log(
   findBestEmployee({
     poly: 12,
     mango: 17,
     ajax: 4,
   }),
 ); // mango
-console.table(
+console.log(
   findBestEmployee({
     lux: 147,
     david: 21,
@@ -72,37 +72,6 @@ console.table(
 ); // lux
 
 
-
-
-
-
-//   const findBestEmployee = ({
-//     ann: 29,
-//     david: 35,
-//     helen: 1,
-//     lorence: 99,
-//   })
-
-// // lorence
-
-// let max = 0;
-// let name;
-
-// const keys = Object.keys(findBestEmployee);
-// console.table(keys);
-
-// for (const key of keys){
-//   console.log(key);
-//   console.log(findBestEmployee[key]);
-
-//   if(max < findBestEmployee[key]){
-//     max = findBestEmployee[key];
-//     name = key;
-//   }
-// }
-
-// console.log('max: ', max);
-// console.log('name: ', name);
 
 
 
