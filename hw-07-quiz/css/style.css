@@ -1,0 +1,46 @@
+*,
+*::before,
+*::after {
+   box-sizing: border-box;
+   margin: 0;
+   padding: 0;
+   list-style: none;
+   text-decoration: none;
+}
+
+
+.form {	
+  margin: 0 auto;
+  padding: 5px;
+	padding-bottom: 50px;
+	width: 720px;
+	border: 1px solid black;
+  }
+
+  .title {
+    padding: 10px 10px 10px 15px;
+  }
+  
+	.section {
+	margin: 20px;
+  border: 1px solid black;
+  padding: 20px;
+  }
+
+  .choices-list {
+    list-style: none
+  }
+
+  h3 {
+    line-height: 2;
+  }
+
+  li {
+    line-height: 1.8;
+  }
+  
+	button {
+	margin: 0 auto;
+	display: block;
+	font-size: 30px;
+	}
