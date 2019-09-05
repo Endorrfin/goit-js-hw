@@ -10,9 +10,10 @@
       rel="stylesheet"
     />
     <!-- <link rel="stylesheet" href="./styles.css" /> -->
-    <link rel="stylesheet" href="/css/style.css">
+    <!-- <link rel="stylesheet" href="/css/style.css"> -->
+    <link rel="stylesheet" href="css/style.css">
   </head>
-  
+
   <body>
     <!-- В этот список добавляй элементы галереи -->
     <ul class="js-gallery gallery"></ul>
@@ -21,17 +22,16 @@
       Модальное окно для полноразмерного изображения.
       Для того чтобы открыть, добавь на div.lightbox CSS-класс is-open
     -->
-    
     <div class="js-lightbox lightbox">
-      <div class="lightbox__overlay"></div>
+      <div class="lightbox_overlay"></div>
 
-      <div class="js-lightbox__content lightbox__content">
-        <img class="js-lightbox___image lightbox___image" />
+      <div class="js-lightbox_content lightbox_content">
+        <img class="js-lightbox_image lightbox_image" />
       </div>
 
       <button
         type="button"
-        class="lightbox__button"
+        class="lightbox_button"
         data-action="close-lightbox"
       >
         <i class="material-icons">close</i>
@@ -40,7 +40,6 @@
 
     <script src="js/gallery-items.js" type="module"></script>
     <script src="js/index.js" type="module"></script>
-    <!-- <script src="js/modal.js" type="module"></script> -->
-    <!-- <script src="js/indexClass.js" type="module"></script> -->
+    <script src="js/modal.js" type="module"></script>
   </body>
 </html>
