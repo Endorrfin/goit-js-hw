@@ -6,7 +6,7 @@
 const gallery = document.querySelector('.js-gallery');
 const moddalLightbox =document.querySelector('.js-lightbox');
 const lightboxImage = document.querySelector('.js-lightbox_image');
-const lightboxButton = document.querySelector('button[data-action="close-lightbox"]');
+const lightboxButton = document.querySelector('button[data-action="close-modal"]');
 const backdropContent = document.querySelector('.js-lightbox_content');
 
 

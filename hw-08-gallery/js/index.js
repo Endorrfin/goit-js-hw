@@ -69,12 +69,6 @@ galleryShow.forEach(picture => {
     a.append(span);
     li.append(a);
     gallery.append(li);
-
   }
   addGalleryImages(picture);
-
 });
-
-
-
-
