@@ -34,8 +34,6 @@
 import galleryShow from './gallery-items.js';
 
 
-
-
 // ********** IMPLEMENTATION OF THE STRUCTURE DOM ACCODANCE WITH THE TEMPLATE **********
 
 const gallery = document.querySelector('.js-gallery');
@@ -51,7 +49,6 @@ galleryShow.forEach(picture => {
     img.setAttribute('data-source', original);
     img.setAttribute('alt', description);
  
-
     const a = document.createElement('a');
     a.classList.add('gallery_link');
     const attributeDataSource = img.getAttribute('data-source');
